@@ -1,0 +1,23 @@
+{
+  "name": "react-calendar-panel",
+  "version": "0.1.0",
+  "description": "An event-based calendar with a right panel to interact with the day events.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosChuan/react-calendar-panel.git"
+  },
+  "keywords": [
+    "Calendar",
+    "Event",
+    "Panel"
+  ],
+  "author": "Carlos Chuan Lleonart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CarlosChuan/react-calendar-panel/issues"
+  },
+  "homepage": "https://github.com/CarlosChuan/react-calendar-panel#readme"
+}
