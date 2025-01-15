@@ -1,0 +1,39 @@
+{
+  "name": "react-calendar-panel",
+  "version": "0.1.0",
+  "description": "A calnedar panel component",
+  "main": "dist/main/index.js",
+  "module": "dist/module/index.js",
+  "types": "dist/main/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build:cjs": "tsc --outDir dist/main",
+    "build:es": "tsc --outDir dist/module --module es2022 --moduleResolution node",
+    "build": "npm-run-all clean -p 'build:**'",
+    "clean": "rimraf dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "Calendar",
+    "Event",
+    "Panel"
+  ],
+  "author": "Carlos Chuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CarlosChuan/react-calendar-panel/issues"
+  },
+  "homepage": "https://github.com/CarlosChuan/react-calendar-panel#readme",
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "react": ">= 16.14",
+    "react-dom": ">= 16.14"
+  }
+}

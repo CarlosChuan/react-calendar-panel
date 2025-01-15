@@ -1,23 +1,18 @@
 {
-  "name": "react-calendar-panel",
-  "version": "0.1.0",
-  "description": "An event-based calendar with a right panel to interact with the day events.",
-  "main": "index.js",
-  "scripts": {
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CarlosChuan/react-calendar-panel.git"
-  },
-  "keywords": [
-    "Calendar",
-    "Event",
-    "Panel"
+  "name": "react-calendar-panel-repository",
+  "private": true,
+  "workspaces": [
+    "./workspaces/*"
   ],
-  "author": "Carlos Chuan Lleonart",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CarlosChuan/react-calendar-panel/issues"
+  "scripts": {
+    "build": "yarn workspaces foreach --all run build",
+    "test": "yarn workspaces foreach --all run test",
+    "bump": "yarn workspace react-arborist version",
+    "publish": "sh bin/publish"
   },
-  "homepage": "https://github.com/CarlosChuan/react-calendar-panel#readme"
+  "packageManager": "yarn@1.22.21",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.3.3"
+  }
 }

@@ -1,0 +1,33 @@
+{
+  "name": "react-calendar-panel-demos",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "keywords": [
+    "Calendar",
+    "Event",
+    "Panel"
+  ],
+  "author": "Carlos Chuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CarlosChuan/react-calendar-panel/issues"
+  },
+  "homepage": "https://github.com/CarlosChuan/react-calendar-panel#readme",
+  "dependencies": {
+    "react": "^19",
+    "react-dom": "^19",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "ts-loader": "^9.5.2",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
